@@ -149,6 +149,10 @@
             animation-delay: 1.7s;
         }
         
+        .social-card:nth-child(5) {
+            animation-delay: 1.9s;
+        }
+        
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -250,6 +254,17 @@
                     <div class="social-name">Discord</div>
                     <div class="social-username">
                         <a href="#" onclick="return false;">@lirisianet</a>
+                    </div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10.91 4.442L0 10.74v2.52l8.727-5.04v10.077l2.182 1.26zM6.545 12l-4.364 2.52l4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12l-8.728-5.04z"/>
+                        </svg>
+                    </div>
+                    <div class="social-name">ActivityPub</div>
+                    <div class="social-username">
+                        <a href="https://misskey.systems/@lirisia" target="_blank">@lirisia@misskey.systems</a>
                     </div>
                 </div>
             </div>
